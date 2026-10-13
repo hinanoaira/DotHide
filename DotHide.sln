@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A97B7E56-D2E5-4EDA-A5FA-00B1495E62BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotHide", "src\DotHide\DotHide.csproj", "{07306B3C-9C17-481B-84EE-6C9C486A538F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AB47A458-E81A-4D27-8AFA-5B0ED0C631D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotHide.Tests", "tests\DotHide.Tests\DotHide.Tests.csproj", "{440596B0-AAFD-46DD-B881-1A6C2FBB4653}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07306B3C-9C17-481B-84EE-6C9C486A538F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07306B3C-9C17-481B-84EE-6C9C486A538F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07306B3C-9C17-481B-84EE-6C9C486A538F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07306B3C-9C17-481B-84EE-6C9C486A538F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440596B0-AAFD-46DD-B881-1A6C2FBB4653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440596B0-AAFD-46DD-B881-1A6C2FBB4653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440596B0-AAFD-46DD-B881-1A6C2FBB4653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440596B0-AAFD-46DD-B881-1A6C2FBB4653}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07306B3C-9C17-481B-84EE-6C9C486A538F} = {A97B7E56-D2E5-4EDA-A5FA-00B1495E62BB}
+		{440596B0-AAFD-46DD-B881-1A6C2FBB4653} = {AB47A458-E81A-4D27-8AFA-5B0ED0C631D0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+{
+  "watch_paths": [
+    "%USERPROFILE%"
+  ],
+  "exclude_directories": [
+    ".git",
+    "node_modules",
+    ".vs",
+    ".idea",
+    "target",
+    "bin",
+    "obj",
+    "$RECYCLE.BIN",
+    "AppData"
+  ],
+  "scan_on_startup": true,
+  "retry_count": 5,
+  "retry_initial_delay_ms": 50,
+  "retry_max_delay_ms": 1000,
+  "enable_tray_icon": true,
+  "log_level": "Information",
+  "log_to_file": true,
+  "log_file_path": "%APPDATA%\\DotHide\\dothide.log"
+}
+
